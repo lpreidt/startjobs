@@ -1,0 +1,74 @@
+.head {
+  font-family: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:'.5rem' 
+
+
+}
+.saveButtonNot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  font-family: bold;
+  margin: 20px;
+  background-color: white;
+
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    color: white;
+    background-color: #229c1e;
+    
+  }
+}
+
+.saveButtonSave{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: bold;
+  margin: 20px;
+  background-color: white;
+
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    color: white;
+    background-color: #e42c14;
+    
+  }
+}
+
+
+
+
+.container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 70px;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 200px;
+  text-decoration: none; /* Entfernt die Unterstreichung von Links */
+
+}
+.applyBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  font-family: bold;
+}

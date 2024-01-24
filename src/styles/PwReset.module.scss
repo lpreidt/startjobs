@@ -1,0 +1,52 @@
+.container{
+    font-family: normal;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+  
+   
+  
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    
+}
+.head{
+    font-family: bold;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    
+    
+}
+.input{
+    font-family: normal;
+
+    margin: auto;
+    display: flex;
+
+    width: 250px;
+}
+.buttonRow{
+    font-family: normal;
+    padding: 10px;
+    margin: auto;
+ 
+    justify-content: center;
+
+.button{
+    font-family: normal;
+    margin: 10px;
+ 
+}
+}
+.link{
+    font-family: light;
+
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

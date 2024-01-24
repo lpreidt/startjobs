@@ -1,0 +1,99 @@
+.header{
+    font-family: bold;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subHeader{
+    font-family: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+.normalText{
+
+        font-family: normal;
+        padding-left: 30px;
+        
+        
+        
+        
+ 
+}
+.usualInput{
+ width: 50%;
+}
+.antInputNumber{
+    margin-bottom: 1rem;
+    width: 150px;
+}
+
+
+.createCompanyForm {
+    /* Hier wird die gesamte Form definiert */
+    width: 60%;
+    margin: 0 auto;
+
+    .antFormItemControl {
+        /* Hier werden die Eigenschaften für das Control-Element der Form definiert */
+        display: flex;
+        flex-direction: column;
+
+        .antInputText {
+            /* Hier werden die Eigenschaften für die Input-Elemente der Form definiert */
+            margin-bottom: 1rem;
+        }
+    }    
+
+    .antFormItemLabel {
+
+        /* Hier werden die Eigenschaften für das Label-Element der Form definiert */
+        >label {
+            font-weight: bold;
+        }
+
+        +.antFormItemControlContainer {
+            /* Hier werden die Eigenschaften für das Container-Element der Form definiert, das das Label- und Control-Element enthält */
+            margin-top: 0.5rem;
+
+            .dynamicDeleteButton {
+                /* Hier werden die Eigenschaften für den "Delete"-Button definiert, der für die dynamische Hinzufügung und Entfernung von Formularfeldern verwendet wird */
+                margin-left: 0.5rem;
+            }
+        }
+    }
+
+    .antButton {
+        /* Hier werden die Eigenschaften für den Submit-Button definiert */
+        margin-top: 0.5rem;
+    }
+
+    .antFormItemExplain {
+        /* Hier werden die Eigenschaften für die Fehlermeldung definiert, die angezeigt wird, wenn das Formular nicht korrekt ausgefüllt wurde */
+        margin-top: 0.5rem;
+        color: red;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        /* Hier werden die Eigenschaften definiert, die angewendet werden, wenn die Bildschirmgröße kleiner als 768px ist */
+        width: 100%;
+    }
+}
+.deleteButton{
+
+    //red color
+    
+    
+    color: rgb(224, 6, 6);
+  
+    cursor: pointer;
+    &:hover{
+        color: rgb(255, 255, 255);
+        background-color: #ff4d4d5d;
+    }
+
+}

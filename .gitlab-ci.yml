@@ -1,0 +1,51 @@
+
+before_script: []
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  image: node:latest
+  stage: build
+  variables:
+    PUBLIC_URL: https://01prlu1bwi.hft-pages.io/start-jobs/
+  script:
+    - npm install
+    - npm ci
+    - CI=false npm run build
+
+  artifacts:
+    paths:
+      - build/
+unit-test:
+  image: node:latest
+  stage: test
+  before_script:
+    - npm install
+  script:
+    - npm run test:ci
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  artifacts:
+    paths:
+      - coverage/
+    when: always
+    reports:
+      junit:
+        - junit.xml
+
+pages:
+  image: alpine:latest
+  stage: deploy
+  variables:
+    GIT_STRATEGY: none
+  script:
+    # Rename the CRA `build` folder to `public`
+
+   - mv build public  
+  artifacts:
+    paths:
+      - public
+
+
+

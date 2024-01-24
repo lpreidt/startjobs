@@ -1,0 +1,176 @@
+.head{
+    font-family: bold;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    font-family: light;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.account{
+    font-family: normal;
+    padding: 10px; 
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+
+}
+.loading{
+    font-family: normal;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jobhead{
+    font-family: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+.jobbody{
+    font-family: normal;
+    padding-left: 30px;
+    
+    
+    
+    
+    
+}
+.greeting{
+    font-family: bold;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+.tile{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 50px; /* 5px rounded corners */
+    border: 5px;
+    height: 220px;
+    width: 50%;
+    margin: auto;
+
+}
+.searchAndFilter {
+    font-family: normal;
+    padding: 10px;
+    width: "60%";
+}
+
+.search {
+    font-family: normal;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter {
+    font-family: normal;
+    padding: 10px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.locationFilter {
+    margin: 5px;
+    width: 190px;
+    
+    
+
+}
+.typeFilter {
+    margin: 5px;
+    width: 200px;
+    
+    
+
+}
+.companyFilter {
+    margin: 5px;
+    width: 190px;
+    
+    
+
+}
+.sortFilter {
+    margin: 5px;
+    width: 100px;
+    
+    
+
+}
+.carusel{
+    font-family: normal;
+    padding: 10px;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.actionButtons{
+    font-family: normal;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+.zuDenJobs{
+    font-family: normal;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    justify-content: center;
+}
+.zumLogin{
+    font-family: normal;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: center;
+}
+.landingText{
+    
+    font-family: normal;
+    padding: 60px;
+    width: 75%;
+   
+    
+}
+.link {
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+  }
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: normal;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
