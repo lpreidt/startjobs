@@ -89,12 +89,6 @@ export function Apply() {
         var dataUri = "data:" + zipFile.type + ";base64," + btoa(reader.result);
 
         const config = {
-          Username: "application.startupjobs@gmail.com",
-          Password: "824688B880B99BB4A04E0A2088108AC75B7F",
-          Host: "smtp.elasticemail.com",
-          Port: 2525,
-          To: "lukas.preidt@startstuttgart.org",
-          From: "application.startupjobs@gmail.com",
           Subject: subject,
           Body: message,
           Attachments: [

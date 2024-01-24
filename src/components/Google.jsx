@@ -27,8 +27,6 @@ export function GoogleSignup() {
       const docSnap = await getDoc(docRef);
 
       if (!docSnap.exists()) {
-        console.log("Bin hier drinnen");
-
         createUserInDB(user, user?.displayName, "", user?.email);
 
         setCreated(true);
